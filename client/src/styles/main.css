@@ -1,0 +1,76 @@
+body {
+    overflow: auto;
+  }
+  
+  .navbar {
+    background: #fcf9f9;
+  }
+  
+  .nav-link {
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 22px;
+  }
+  .nav-icon {
+    color: #000000;
+  }
+  
+  .card-hover :hover {
+    -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    -webkit-transition: 0.5s;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+  .card-body :hover {
+    text-decoration: none;
+  }
+  
+  .search {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 10;
+  }
+  
+  .banner {
+    display: inline-block;
+    background: rgba(212, 210, 210, 0.5);
+    width: 60rem;
+    height: 18rem;
+    color: #000000;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+  }
+  
+  .banner h4 {
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    body {
+      overflow: visible;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .banner {
+      padding: 2rem 6rem;
+    }
+  
+    .banner h4 {
+      font-size: 3rem;
+    }
+  }
