@@ -24,17 +24,17 @@ class Navbar extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <Link to="/" className="nav-link">
-                  Home <span className="sr-only">(current)</span>
+                  Home 
                 </Link>
               </li>
             </ul>
-            <ul className="navbar-nav ml-auto">
+            {/* <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link to="/" className="nav-link">
                   <FaUser /> 
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>
